@@ -1,10 +1,5 @@
 to be checked out
 
-Neural Artistic Style in Python
-
-    https://github.com/andersbll/neural_artistic_style
-
-
 CNNMRF
 
     https://github.com/chuanli11/CNNMRF
