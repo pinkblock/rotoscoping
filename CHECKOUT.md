@@ -29,3 +29,11 @@ neural-style
 neural-storyteller
 
     ???
+
+This !!!
+
+    http://kevinkarsch.com/?portfolio=299
+
+and this!!
+
+    https://github.com/marsbroshok/face-replace
