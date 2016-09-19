@@ -1,6 +1,7 @@
 # rotoscoping
 
-## Step 1: Install stuff
+## Install stuff
 ./install_roto.sh
 
-
+## Run stuff
+./execution/install_roto.sh
