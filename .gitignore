@@ -1,6 +1,6 @@
-*/.pyc
+*.pyc
 
-*/.mat
+*.mat
 
-*/imagenet-vgg-verydeep-19.mat
-*/shape_predictor_68_face_landmarks.dat
+*imagenet-vgg-verydeep-19.mat
+*shape_predictor_68_face_landmarks.dat
