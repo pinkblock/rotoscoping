@@ -1,39 +1,28 @@
-to be checked out
+To be checked out
 
-CNNMRF
+#Mask
+burningion/faceswap
 
-    https://github.com/chuanli11/CNNMRF
-
-
-A Neural Algorithm of Artistic Style
-
-    http://arxiv.org/abs/1508.06576
+    https://github.com/burningion/faceswap
 
 
+
+#Style
 Neural Artistic Style in Python
 
     https://github.com/andersbll/neural_artistic_style
 
-
 style_transfer
+    This should be faster
 
     https://github.com/crowsonkb/style_transfer
 
-
 neural-style
+    claims to be simpler 
 
     https://github.com/anishathalye/neural-style
 
-
-
-neural-storyteller
-
-    ???
-
+#Lighting 
 This !!!
 
     http://kevinkarsch.com/?portfolio=299
-
-and this!!
-
-    https://github.com/marsbroshok/face-replace
