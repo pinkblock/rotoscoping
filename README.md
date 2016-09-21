@@ -4,4 +4,5 @@
 ./install_roto.sh
 
 ## Run stuff
-./execution/swapface.sh
+./execution/put_it_all_together.sh
+
