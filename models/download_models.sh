@@ -8,6 +8,5 @@ cd ..
 echo #
 
 echo '### make link to models ###'
-cd models
-ln -s imagenet-vgg-verydeep-19.mat ../implementation/neural_artistic_style/imagenet-vgg-verydeep-19.mat
+ln -sr models/imagenet-vgg-verydeep-19.mat implementation/neural_artistic_style/imagenet-vgg-verydeep-19.mat
 echo #
