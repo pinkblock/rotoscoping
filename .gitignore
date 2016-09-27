@@ -4,3 +4,10 @@
 
 *imagenet-vgg-verydeep-19.mat
 *shape_predictor_68_face_landmarks.dat
+
+# venv
+venv/*
+
+# models
+models/VGG*
+models/vgg*
