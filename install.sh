@@ -1,14 +1,16 @@
-install dlib
+echo '### installing pips from requirements.txt ###'
+pip install -r requirements.txt
+echo #
 
-pip install requirments.txt
-
+echo '### installing dev libs ###'
 sudo apt-get install libx11-dev libboost-all-dev 
+echo #
 
-# install the models
+echo '### installing models ###'
 ./models/download_models.sh
+echo #
 
-
-# install cudarry
+echo '### install cudarry ###'
 git clone https://github.com/andersbll/cudarray.git
 ### with cuda 
 # CUDNN_ENABLED=1
@@ -20,5 +22,6 @@ git clone https://github.com/andersbll/cudarray.git
 
 # without cuda
 python ./cudarray/setup.py --without-cuda install
+echo #
 
 

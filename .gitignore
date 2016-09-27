@@ -11,3 +11,7 @@ venv/*
 # models
 models/VGG*
 models/vgg*
+
+# cudarray/ 
+cudarray/*
+cudarray*
