@@ -1,8 +1,11 @@
 # rotoscoping
 
+## Virtual Environment
+virtualenv venv
+source venv/bin/activate
+
 ## Install stuff
-./install_roto.sh
+./install.sh
 
 ## Run stuff
 ./execution/put_it_all_together.sh
-

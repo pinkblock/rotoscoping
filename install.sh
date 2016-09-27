@@ -15,13 +15,15 @@ git clone https://github.com/andersbll/cudarray.git
 ### with cuda 
 # CUDNN_ENABLED=1
 #
+# cd cudarry
+#
 # make
 # make install
 #
 # python setup.py install
 
-# without cuda
-cd cudarry
+### without cuda
+cd cudarray
 python setup.py --without-cuda install
 cd ..
 echo #
