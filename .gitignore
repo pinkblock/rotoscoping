@@ -12,7 +12,7 @@ venv/*
 models/VGG*
 models/vgg*
 
-# cudarray/ 
+# CUDArray/ 
 cudarray/*
 cudarray*
 
