@@ -82,6 +82,17 @@ install_opencv () {
     echo #
 }
 
+install_torch () {
+    echo '### Install Torch ###'
+    # prerequisites
+    # compiler 
+
+    # get source
+    git clone https://github.com/torch/distro.git ~/torch --recursive
+    cd ~/torch; bash install-deps;
+    ./install.sh
+    echo #
+}
 
 ### Install Script ###
 apt-get update
@@ -102,6 +113,7 @@ echo #
 
 install_cudarry
 install_deeppy
+install_torch
 
 install_if_not_installed opencv
 
