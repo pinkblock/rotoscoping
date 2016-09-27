@@ -12,6 +12,7 @@ venv/*
 models/VGG*
 models/vgg*
 
+# libraries and modules 
 # CUDArray/ 
 cudarray/*
 cudarray*
@@ -19,3 +20,7 @@ cudarray*
 # DeepPy/ 
 deeppy/*
 deeppy*
+
+# Opencv/ 
+opencv/*
+opencv*
