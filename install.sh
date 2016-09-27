@@ -21,7 +21,14 @@ git clone https://github.com/andersbll/cudarray.git
 # python setup.py install
 
 # without cuda
-python ./cudarray/setup.py --without-cuda install
+cd cudarry
+python setup.py --without-cuda install
+cd ..
 echo #
 
-
+echo '### install deeppy ###'
+git clone https://github.com/andersbll/deeppy.git
+cd deeppy
+python setup.py install
+cd ..
+echo #

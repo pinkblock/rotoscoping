@@ -15,3 +15,7 @@ models/vgg*
 # cudarray/ 
 cudarray/*
 cudarray*
+
+# DeepPy/ 
+deeppy/*
+deeppy*
