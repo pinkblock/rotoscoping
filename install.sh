@@ -17,17 +17,20 @@ command_is_installed () {
 }
 
 install_if_not_installed () {
+    var=$1
     make_func_name () {
-        MY_FUNC_NAME="install_$1"
+        MY_FUNC_NAME="install_$var"
     }
 
-    echo '### Install '$1' if it is not installed ###'
-    if ! library_is_installed $1 && ! command_is_installed $1;
+    echo '### Install '$var' if it is not installed ###'
+    if ! library_is_installed $var && ! command_is_installed $var;
         then
+            make_func_name $var
             $MY_FUNC_NAME
         else 
-            echo '#' $1 'Is already installed'
+            echo '#' $var 'Is already installed'
     fi
+    echo #
 }
 
 
@@ -82,11 +85,8 @@ install_opencv () {
     echo #
 }
 
-install_torch () {
+install_th () {
     echo '### Install Torch ###'
-    # prerequisites
-    # compiler 
-
     # get source
     git clone https://github.com/torch/distro.git ~/torch --recursive
     cd ~/torch; bash install-deps;
@@ -109,12 +109,10 @@ echo '### installing models ###'
 ./models/download_models.sh
 echo #
 
-# Install from git hub if not already installed 
 
+# Install from git hub if not already installed 
 install_cudarry
 install_deeppy
-install_torch
 
+install_if_not_installed th
 install_if_not_installed opencv
-
-
