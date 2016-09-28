@@ -1,5 +1,5 @@
 #!/bin/sh
-apt-get update
+sudo apt-get update
 
 ### General Functions ###
 library_is_installed () {
