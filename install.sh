@@ -102,7 +102,7 @@ pip install -r requirements.txt
 echo #
 
 echo '### installing apt-get files ###'
-sudo apt-get install libx11-dev libboost-all-dev libprotobuf-dev protobuf-compiler
+sudo apt-get install libboost-all-dev python-dev libx11-dev libboost-all-dev libprotobuf-dev protobuf-compiler
 echo #
 
 echo '### installing loadcaffe ###'
@@ -113,6 +113,11 @@ echo '### installing models ###'
 ./models/download_models.sh
 echo #
 
+echo '### installing cmake ###'
+sudo add-apt-repository ppa:george-edison55/cmake-3.x
+sudo apt-get update
+sudo apt-get install cmake
+echo #
 
 # Install from git hub if not already installed 
 install_cudarry
