@@ -17,18 +17,12 @@ command_is_installed () {
 }
 
 install_if_not_installed () {
-    var=$1
-    make_func_name () {
-        MY_FUNC_NAME="install_$var"
-    }
-
-    echo '### Install '$var' if it is not installed ###'
-    if ! library_is_installed $var && ! command_is_installed $var;
+    echo '### Install '$1' if it is not installed ###'
+    if ! library_is_installed $1 && ! command_is_installed $1;
         then
-            make_func_name $var
-            $MY_FUNC_NAME
+            install_$1
         else 
-            echo '#' $var 'Is already installed'
+            echo '#' $1 'Is already installed'
     fi
     echo #
 }
