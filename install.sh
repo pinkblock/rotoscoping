@@ -101,8 +101,12 @@ echo '### installing pips from requirements.txt ###'
 pip install -r requirements.txt
 echo #
 
-echo '### installing dev libs ###'
-sudo apt-get install libx11-dev libboost-all-dev 
+echo '### installing apt-get files ###'
+sudo apt-get install libx11-dev libboost-all-dev libprotobuf-dev protobuf-compiler
+echo #
+
+echo '### installing loadcaffe ###'
+luarocks install loadcaffe
 echo #
 
 echo '### installing models ###'

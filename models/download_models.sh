@@ -9,4 +9,5 @@ echo #
 
 echo '### make link to models ###'
 ln -sr models/imagenet-vgg-verydeep-19.mat implementation/neural_artistic_style/imagenet-vgg-verydeep-19.mat
+ln -sr models/VGG_ILSVRC_19_layers.caffemode implementation/neural-style/models/VGG_ILSVRC_19_layers.caffemode
 echo #

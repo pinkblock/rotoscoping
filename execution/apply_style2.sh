@@ -8,7 +8,7 @@ MY_OUT=../../output_images/demo_thing.jpg
 MY_I=1
 cd $NEURAL_STYLE_PATH
 
-th $NEURAL_STYLE_PATH/neural_style.lua \
+th neural_style.lua \
     -style_image $MY_STYLE \
     -content_image $MY_SUB \
     -output_image $MY_OUT \
