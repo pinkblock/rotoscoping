@@ -113,6 +113,12 @@ sudo apt-get update
 sudo apt-get install cmake
 echo #
 
+echo '### installing dlib ###'
+wget -qO- https://pypi.python.org/packages/24/e5/af6b0a964ff4b726146128ab4f9cd67293426357c7399effab8240d2b8be/dlib-19.1.0.tar.gz | tar xvz
+cd dlib
+python setup.py install
+echo #
+
 # Install from git hub if not already installed 
 install_cudarry
 install_deeppy

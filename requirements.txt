@@ -1,4 +1,4 @@
 virtualenv>=15.0.3
 scikit-image>=0.12.3
-cython>=0.24.
-dlib
+cython>=0.24
+setuptools>=28.0.0
