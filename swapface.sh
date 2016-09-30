@@ -1,8 +1,11 @@
 #!/bin/sh
 
 #Swap a face
-FACE_REPLACE_PATH=./implementation/face-replace
-python2 $FACE_REPLACE_PATH/change-face-in-video.py \
-    $FACE_REPLACE_PATH/demo/arni.jpg \
-    $FACE_REPLACE_PATH/demo/Barack_Obama.jpg \
-    ./output_images/demo_arni_Obama.mov
+MY_MASK=input_images/ns_content_image/golden_gate.jpg
+MY_TARGET=input_images/ns_style_image/skrik.jpg
+MY_OUT=output_images/demo_style.jpg
+
+python2 faceswap.py \
+    $MY_MASK \
+    $MY_TARGET \
+    MY_OUT
