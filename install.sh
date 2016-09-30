@@ -1,5 +1,4 @@
 #!/bin/sh
-sudo apt-get update
 
 ### General Functions ###
 library_is_installed () {
@@ -89,7 +88,7 @@ install_th () {
 }
 
 ### Install Script ###
-apt-get update
+sudo apt-get install python-scipy
 
 echo '### installing pips from requirements.txt ###'
 pip install -r requirements.txt
@@ -97,10 +96,6 @@ echo #
 
 echo '### installing apt-get files ###'
 sudo apt-get install libboost-all-dev python-dev libx11-dev libboost-all-dev libprotobuf-dev protobuf-compiler
-echo #
-
-echo '### installing loadcaffe ###'
-luarocks install loadcaffe
 echo #
 
 echo '### installing models ###'
