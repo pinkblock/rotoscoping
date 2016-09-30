@@ -1,14 +1,12 @@
+numpy - pip install
 
 faceswap.py
     cv2 - prereq
-    dlib - 
-    numpy
-    sys
-
+    dlib - prereq
+    
 neural_artistic_style.py
-    numpy
-    scipy.misc
-    deeppy
-        cudarray
-            cython
+    scipy - pip install 
+    deeppy - prereq
+        cudarray - prereq
+            cython - prereq
     matconvnet

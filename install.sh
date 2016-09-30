@@ -37,10 +37,5 @@ echo '### installing models ###'
 ./models/download_models.sh
 echo #
 
-echo '### installing cmake ###'
-sudo add-apt-repository ppa:george-edison55/cmake-3.x
-sudo apt-get install cmake
-echo #
-
 # Install from git hub if not already installed 
 # install_cudarry

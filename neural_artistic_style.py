@@ -89,7 +89,7 @@ def run():
                         help='Weight of subject relative to style.')
     parser.add_argument('--pool-method', default='avg', type=str,
                         choices=['max', 'avg'], help='Subsampling scheme.')
-    parser.add_argument('--network', default='imagenet-vgg-verydeep-19.mat',
+    parser.add_argument('--network', default='models/imagenet-vgg-verydeep-19.mat',
                         type=str, help='Network in MatConvNet format).')
     args = parser.parse_args()
 
