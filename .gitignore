@@ -1,9 +1,10 @@
-*.pyc
-
+# mmat
 *.mat
 
+# models
 *imagenet-vgg-verydeep-19.mat
 *shape_predictor_68_face_landmarks.dat
+*shape_predictor_68_face_landmarks.dat.bz2
 
 # venv
 venv/*
@@ -14,15 +15,12 @@ models/vgg*
 
 # libraries and modules 
 # CUDArray/ 
-cudarray/*
 cudarray*
 
 # DeepPy/ 
-deeppy/*
 deeppy*
 
 # Opencv/ 
-opencv/*
 opencv*
 
 # Byte-compiled / optimized / DLL files
@@ -68,16 +66,6 @@ htmlcov/
 nosetests.xml
 coverage.xml
 *,cover
-
-# Translations
-*.mo
-*.pot
-
-# Django stuff:
-*.log
-
-# Sphinx documentation
-docs/_build/
 
 # PyBuilder
 target/
