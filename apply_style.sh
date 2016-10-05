@@ -7,7 +7,7 @@ MY_OUT=output_images/demo_style.jpg
 MY_I=1
 
 # apply style
-python neural_artistic_style.py \
+python3 neural_artistic_style.py \
     --subject $MY_SUB \
     --style $MY_STYLE \
     --output $MY_OUT \
